@@ -1,0 +1,390 @@
+@charset "UTF-8";
+#header {
+	width: 700px;
+	margin-left: 200px;
+	background-color: white;
+}
+#image {
+	height: 280px;
+	width: 700px;
+	margin-left: 200px;
+	border-top: 3px solid #2B5E47;
+	border-bottom: 3px solid #2B5E47;
+}
+#pagetitle {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, 	sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: #FF7d84;
+	margin-left:100px;
+	position: absolute;
+	top: 30px;
+}
+
+#pageContent {
+	width: 700px;
+	margin-left: 200px;	
+}
+
+#footer {
+	width: 700px;
+	margin-left: 200px;	
+	background-color: #00cccc;
+	clear: both;
+}
+
+#description-left {
+	top: 130px;
+	position: absolute;
+	left: 100px;
+	width: 740px;
+}
+
+#description-right {
+	top: 130px;
+	position: absolute;
+	right: 120px;
+	width: 500px;
+}
+#mainText {
+	width: 450px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+
+h1 {
+	font-family: Geneva, sans-serif;
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 700;
+	color: #d18ec4;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	letter-spacing: 10px;
+	line-height: 45px;
+}
+
+h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 15px;
+	font-style: oblique;
+	font-weight: bolder;
+	color: #333;
+	text-align: center;
+}
+
+
+h3 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: oblique;
+	font-weight: bolder;
+	color: #333;
+}
+h5 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-style: oblique;
+	font-weight: bolder;
+	color: #333;
+	text-align: center;
+}
+
+#sidebarNav {
+	/*background-image: url(images/back_sidebar.jpg);*/
+	background-repeat: no-repeat;
+	background-position: center top;
+	float: right;
+	height: 365px;
+	width: 190px;
+	padding: 15px;
+}
+
+#topNav {
+	width: 300px;
+	float: right;
+	/*padding: px;*/
+}
+
+.style2 {
+	left: 150px;
+	top: 130px;
+	background-color: white;
+}
+
+#main-bar {
+	margin: 0px;
+	clear: none;
+	float: left;
+	height: 442px;
+	/*width:565px;*/
+	padding-top: 150px;
+	top: 50px;
+	left: 100px;
+	width: 740px;
+	position: absolute;
+/*	text-wrap: normal;*/
+}
+#homeimage {
+	padding: 30px;
+	clear: none;
+	float: right;
+}
+#pg_1 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_2 {
+	position: absolute;
+	overflow: hidden;
+	visibility: hidden;
+}
+#pg_3 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_4 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_5 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_6 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_7 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_8 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_9 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_10 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_11 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_12 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_13 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_14 {
+	position: absolute;
+	visibility: hidden;
+}
+#pg_15 {
+	position: absolute;
+	visibility: hidden;
+}
+
+#thumbnail {
+	padding: 15px;
+	width: 259px;
+	top: auto;
+	position: absolute;
+	visibility: visible;
+}
+
+#about_pic{
+	position: absolute;
+	left: 100px;
+	top: 100px;
+}
+
+.samsung{
+   	background: transparent url(images/samsung.jpg);
+	position: absolute;
+	left: 30px;
+	top: 100px;
+ 	width: 513px;
+ 	height:363px;
+ 	display:block;
+}
+
+.samsung:hover {
+   background-image: url(images/samsung_hover.jpg);
+}
+
+
+#samsung_1{
+	position: absolute;
+	left: 100px;
+	top: 320px;
+}
+
+#samsung_2{
+	position: absolute;
+	right: 120px;
+	top: 320px;
+}
+
+.courseera{
+	background: transparent url(images/courseera.jpg);
+	display: block;
+	position: absolute;
+	right: 50px;
+	top: 100px;
+ 	width: 513px;
+ 	height:363px;
+}
+
+.courseera:hover {
+   background-image: url(images/courseera_hover.jpg);
+}
+
+
+.tomysis{
+	background: transparent url(images/tomysis.jpg);
+	display: block;
+	position: absolute;
+	left: 30px;
+	top: 470px;
+ 	width: 513px;
+ 	height:363px;
+}
+
+.tomysis:hover {
+   background-image: url(images/tomysis_hover.jpg);
+}
+
+.saturdayman{
+	background: transparent url(images/saturdayman.jpg);
+	display: block;
+	position: absolute;
+	right: 50px;
+	top: 470px;
+ 	width: 513px;
+ 	height:363px;
+}
+
+.saturdayman:hover {
+   background-image: url(images/saturdayman_hover.jpg);
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 19px;
+	color: #666;
+	/*background-image: url(images/back_yosemite.png);*/
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+	background-color: white;
+}
+
+/*h1 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #B1592A;
+	margin-top: 10px;
+	margin-bottom: 0px;	
+}
+
+h2 {
+	font-size: 16px;
+	font-style: italic;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}*/
+
+p {
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+top-nav {
+	position: absolute;
+	top:30px;
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+a {
+	color: #646060;
+	text-decoration: none;	
+}
+
+
+h3 {
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 0px;	
+}
+
+ul {
+	margin-top: 5px;
+	margin-bottom: 5px;	
+}
+
+li {
+	margin-bottom: 5px;
+}
+
+table {
+	width:450px;
+}
+
+th {
+	font-weight: bold;
+	text-align: left;
+	border-bottom: 1px solid #B1592C;
+}
+
+td {
+	border-bottom: 1px solid #B1592C;	
+}
+#topNav a {
+	font-weight:bold;
+}
+
+#header img {
+	border-width:0px;
+	margin-top:55px;
+}
+
+#sidebarNav a {
+	font-size:13px;
+	font-weight:bold;
+	color:#132F16;
+}
+
+#sidebarNav p {
+	margin-bottom:12px;
+	text-align:center;
+}
+
+
+
+a:hover {
+
+	/*color:#3A3737;*/
+	color: #FFB6C1;
+}
+
+#sidebarNav a:hover {
+	color:#658D76;
+}
+#footer p {
+	color:#999;
+	text-align:center;
+}
